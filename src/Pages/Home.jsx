@@ -87,7 +87,7 @@ function Home() {
   };
   
   const showPdf = (pdf) => {
-    const pdfUrl = `http://localhost:3000/api/files/${pdf}`; 
+    const pdfUrl = `https://pdf-project.onrender.com/api/files/${pdf}`; 
     setSelectedPdf(pdfUrl);
   };
  
